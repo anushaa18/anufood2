@@ -1,0 +1,8 @@
+#aa{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),url(images/re.jpeg);
+      
+     background-attachment:fixed;
+     background-size: cover;
+     color:white;
+     height:1400px;
+}

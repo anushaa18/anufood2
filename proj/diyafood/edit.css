@@ -1,0 +1,123 @@
+.body{
+ background-color: #efebeb;   
+}
+#myDIV{
+  
+    
+    width:100%;
+     height:1700px;
+    background:#efebeb;
+      
+    font-size: 18px;
+    display: flex ;
+}
+#but
+{
+    top:400px;
+    left:170px;
+    background-color: red;
+    height:30px;
+    
+}
+#myDIV2{
+    top:90px;
+    left:270px;
+    width:930px;
+    height:1300px;
+   border-radius: 8px;
+    background:#fefefe;
+    position: absolute;  
+    font-size: 18px;
+    display: flex ;
+}
+#myDIV3{
+    top:50px;
+    left:490px;
+    width:400px;
+    height:auto;
+    border-radius: 8px;
+    background: #e6e3e3;
+    position: absolute;  
+    font-size: 18px;
+    display: flex ;
+}
+#myDIV4{
+    top:280px;
+    left:760px;
+    width:400px;
+    height:auto;
+    border-radius: 8px;
+    background: #fefefe;
+    position: absolute;  
+    font-size: 18px;
+    display: flex ;
+}
+#myDIV5{
+    top:278px;
+    left:760px;
+    width:400px;
+    height:auto;
+    border-radius: 8px;
+    background: #e6e3e3;
+    position: absolute;  
+    font-size: 18px;
+    display: flex ;
+}
+#myDIV6{
+    top:500px;
+    left:760px;
+    width:400px;
+    height:auto;
+    border-radius: 8px;
+    background: #fefefe;
+    position: absolute;  
+    font-size: 18px;
+    display: flex ;
+}
+#myDIV7{
+    top:540px;
+    left:760px;
+    width:400px;
+    height:auto;
+    overflow: hidden;
+    
+    background: #e6e3e3;
+    position: absolute;  
+    font-size: 18px;
+    display: flex ;
+}
+
+#columns{
+    column-width: 310px;
+    column-gap:20px;
+    width:90%;
+    max-width:1100px;
+    margin:50px auto;
+}
+div#columns figure{
+   
+   
+    box-shadow: 0 1px 2px rgba(34,25,25,0.4);
+    margin:0 2px 15px;
+     border-radius: 8px;
+    
+    transition: opacity .4s ease-in-out;
+    display:inline-block;
+    column-break-inside:avoid;
+    
+    
+}
+div#columns figure img{
+    width:100%;height:auto;
+   border-radius: 8px;
+   
+    margin-bottom: 7px;
+}
+
+
+
+@media screen and(max-width:750px){
+    #columns {column-gap: 0px; }
+    #columns figure{width:100%;}
+}
+
