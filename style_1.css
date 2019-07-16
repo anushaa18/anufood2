@@ -1,0 +1,137 @@
+*{
+    
+background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),url(images/b3.jpeg);
+     background-size:auto; 
+     background-attachment:fixed;
+}
+/*body{
+    background:linear-gradient(to bottom right,white,#bcbdc4);
+    height:750px;
+}*/
+.headerx{
+    position:fixed;
+    width:100%;
+    height:100px;
+    top:0;
+    left:0;
+   
+    z-index:7;
+    font-family: verdana;
+    -webkit-box-shadow: 0 3px 8px rgba(0,0,0,.25);
+}
+.header{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    
+    top:0;
+    left:0;
+    color:white;
+    z-index:7;
+    font-family: verdana;
+    font-size: 22px;
+}
+#em{
+    left:900px;
+    top:20px;
+    
+    font-size: 15px;
+    height:60px;
+    color:white;
+    width:200px;
+}
+#em ::placeholder{
+    color:white;
+    
+    opacity: 1;
+}
+#pas{
+    left:1090px;
+    top:20px;
+    font-size: 15px;
+    height:60px;
+    width:180px;
+    color: white;
+    
+}
+#pas ::placeholder{
+    color:white;
+    opacity: 1;
+}
+.submit1{
+   left:1280px;
+    top:40px;
+    background:green;
+    color: white;
+    z-index: 20;
+    height: 25px;
+    width: 60px;
+    position: fixed;
+    cursor: pointer;
+}
+.main{
+    position: absolute;
+    left: 0;
+    top: 100px;
+    width: 100%;
+    height: 600px;
+    
+}
+#left{
+    top: 40px;
+    left: 95px;
+    font-family: verdana;
+    font-size: 30px;
+    color: white;
+    height:75px;
+    width:550px;
+}
+#right{
+ top: 40px;
+    left: 930px;
+    font-family: verdana;
+    font-size: 45px;
+    color:white;
+    height:60px;
+    width:500px;   
+}
+#form{
+    top:120px;
+    left:920px;
+    font-family: verdana;
+    font-size: 20px;
+    color: white;
+    width:450px;
+    height:495px;
+}
+#namebox{
+    width:150px;
+    height:40px;
+    border-radius: 10px/10px;
+    background: white;
+    padding: 10px;
+    font-size:20px;
+}
+#mailbox{
+    width:330px;
+    height:40px;
+    border-radius: 10px/10px;
+    background: white;
+    padding: 8px;
+    font-size:20px;
+}
+.button2
+{
+      left:1000px;
+    top:650px;
+    background: green;
+    color: white;
+    z-index: 20;
+    height: 35px;
+    width: 100px;
+    outline: none;
+    font-size: 20px;
+    position: fixed;
+    cursor: pointer;
+    
+}
